@@ -122,7 +122,10 @@ number=15
 $$ y_i = x^2 + \alpha$$
 这是一个分数$\frac{a}{b}$
 ```
+
 $$ y_i = x^2 + \alpha$$
-这是一个分数$\frac{a}{b}$
+这是一个分数$\frac{a}{b}$　　
+
+更多资料：https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
