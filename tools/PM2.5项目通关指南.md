@@ -86,7 +86,7 @@ df_1 = reading_stats(df_all_cities, ["city == 'Chengdu'", "year == 2015"])
 ```
 我的第二个问题是*  成都市12月份里一天的PM2.5的变化趋势？*，因此筛选的函数就变成下面样子了。
 ```python
-df_２ = reading_stats(df_all_cities, ["city == 'Chengdu'", "month == 12"])
+df_2 = reading_stats(df_all_cities, ["city == 'Chengdu'", "month == 12"])
 ```
 **注意:**　　
 
@@ -105,7 +105,7 @@ df_２ = reading_stats(df_all_cities, ["city == 'Chengdu'", "month == 12"])
 
 如我的第二问题* 成都市12月份里一天的PM2.5的变化趋势？*　探索如下图所示是将`df_２`根据`hour`的值进行分组，然后求出每个组的平均值，`X`轴显示的是分组情况，`Y`轴显示的每个分组的平均值。这就可以分析出变化趋势了。
 ```python
-univariate_plot(df_２, 'hour')
+univariate_plot(df_2, 'hour')
 ```
 注意：`hour`要加单引号。　　
 
